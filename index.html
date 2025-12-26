@@ -326,12 +326,12 @@ function generatePDF() {
     doc.setFontSize(10);
     doc.setFont(undefined, 'italic');
     doc.setTextColor(100, 100, 100);
-    doc.text("Thank you for your business!", 105, y, {align: "center"});
+    doc.text("Thank you for your business!📠", 105, y, {align: "center"});
     
     y += 6;
     doc.setFontSize(9);
     doc.setFont(undefined, 'bold');
-    doc.text("Zetra World", 105, y, {align: "center"});
+    doc.text("Zetra World for (zetra store)", 105, y, {align: "center"});
     
     // Security watermark - only visible if licensedTo is set
     if(licensedTo) {
